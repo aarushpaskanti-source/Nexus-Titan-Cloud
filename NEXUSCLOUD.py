@@ -102,7 +102,7 @@ if prompt := st.chat_input(f"Message {st.session_state.ai_name}..."):
             gemini_history = [types.Content(role=m["role"], parts=[types.Part.from_text(text=m["text"])]) for m in current_messages[:-1]]
             
             chat = client.chats.create(
-                model='gemini-1.5-flash',
+                model='gemini-2.0-flash',
                 history=gemini_history,
                 config=types.GenerateContentConfig(
                     system_instruction=f"You are {st.session_state.ai_name}, an elite AI created and owned by Aarush Paskanti. Be brilliant at JEE Science and Python.",
