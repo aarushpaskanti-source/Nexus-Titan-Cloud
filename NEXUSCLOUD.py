@@ -6,7 +6,7 @@ import json
 import os
 
 # --- 1. CONFIG & SETTINGS ---
-API_KEY = st.secrets["AIzaSyCtgfPUSVVR-SZE_XNlhUcUg5SPBGwEbng"]
+API_KEY = st.secrets["GEMINI_KEY"]
 
 st.set_page_config(page_title="NEXUS TITAN", page_icon="⚡", layout="wide")
 
