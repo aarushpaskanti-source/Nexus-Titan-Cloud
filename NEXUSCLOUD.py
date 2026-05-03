@@ -6,7 +6,7 @@ import json
 import os
 
 # --- 1. CONFIG & SETTINGS ---
-API_KEY = "AIzaSyCtgfPUSVVR-SZE_XNlhUcUg5SPBGwEbng" # Your key from the screenshot
+API_KEY = st.secrets["AIzaSyCtgfPUSVVR-SZE_XNlhUcUg5SPBGwEbng"]
 
 st.set_page_config(page_title="NEXUS TITAN", page_icon="⚡", layout="wide")
 
